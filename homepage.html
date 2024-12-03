@@ -7,21 +7,18 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
   
   <style>
-  html
-  body{
+ html
+  body {
         min-height: 100vh;
         background-size: 100%;
         background-repeat: no-repeat;
         background-position: center;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       }
-        
-
       .section {
     padding: 5rem 0;
     margin-top: 10px;
     margin-left: 10px;
-   
       }
   
   .Hall-grid {
@@ -32,7 +29,7 @@
   }
   
   .Hall-card {
-    background-color: #fafbff;
+    background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 1rem;
@@ -63,7 +60,7 @@
   }
   
   .button-secondary {
-    background-color: #555;
+    background-color: #000000;
   }
   
   .contact-form input,
@@ -79,21 +76,21 @@
   }
 
         .navbar {
-            background-color: #023c2a;
+            background-color: #003826;
             overflow: hidden;
             padding: 10px 0;
         }
         .navbar a {
             float: left;
             display: block;
-            color: rgb(255, 255, 255);
+            color: rgb(0, 110, 9);
             text-align: center;
             padding: 14px 20px;
             text-decoration: none;
             font-size: 16px;
         }
         .navbar a:hover {
-            background-color:rgb(0, 0, 46);
+            background-color:rgb(5, 46, 0);
             color: rgb(255, 234, 0);
         }
         .navbar .search-container {
@@ -111,7 +108,7 @@
             padding: 6px 8px;
             margin-top: 8px;
             margin-right: 16px;
-            background: #b7b4b4;
+            background: #018715;
             font-size: 17px;
             border: none;
             cursor: pointer;
@@ -138,18 +135,18 @@
             transform: translate(-50%, -50%);
             font-style: inherit;
             font-size: 75px;
-            color: #af1002;
+            color: #1d6702;
             text-shadow: 0px 0px 10px #62ff00;
         }
         .Hall-text {
             position: absolute;
-            top:  50%;
+            top:  40%;
             left: 50%;
             transform: translate(-50%, -50%);
             font-style: initial;
             font-size: 60px;
-            color: #f7ff02;
-            text-shadow: 0px 0px 10px #ff0000;
+            color: #169403;
+            text-shadow: 0px 0px 10px #11ff00;
         }
         .Hall-text1 {
             position: absolute;
@@ -157,21 +154,171 @@
             left: 50%;
             transform: translate(-50%, -50%);
             font-style: initial;
-            font-size: 60px;
-            color: #0202ff;
-            text-shadow: 0px 0px 10px #0011ff;
+            font-size: 70px;
+            color: #157400;
+            text-shadow: 0px 0px 10px #00ff0d;
         }
-        .Hall-text2 {
-            position: absolute;
-            top:  90%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-style: initial;
-            font-size: 60px;
-            background-color:rgb(224, 0, 0);
-            color: rgb(0, 255, 17);
-      }
+    
 
+footer {
+  background-color: black;
+  color: white;
+  bottom: 0;
+  width: 100vw;
+  font-size: 16px;
+}
+footer * {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+.row {
+  padding: 1em 1em;
+}
+.row.primary {
+  display: grid;
+  grid-template-columns: 2.5fr 2fr 2.5fr;
+  align-items: stretch;
+}
+.column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2em;
+  min-height: 15em;
+}
+.column subscribe {
+  display: grid;
+  grid-template-rows:  2fr 2.5fr;
+  align-items: stretch;
+}
+.qr{
+  width:30%;
+  float: right;
+  border: 1px dotted black;
+  margin: 0px 0px 15px 20px;
+}
+.news{
+	font-size: 15px;
+}
+.loc{
+  font-size:20px;
+}
+h3 {
+  width: 100%;
+  text-align: left;
+  color: rgb(0, 0, 0);
+  font-size: 1.8em;
+  white-space: nowrap;
+}
+column link {
+
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+.about p {
+  text-align: justify;
+  line-height: 2;
+  margin: 0;
+}
+input,
+button {
+  font-size: 1em;
+  padding: 1em;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+button {
+  background-color: #c7940a;
+  color: #ffffff;
+}
+div.social {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2.4em;
+  flex-direction: row;
+  margin-top: 0.5em;
+}
+.social a {
+  color: white;
+}
+
+.footer-menu{
+  float: left;
+    margin-top: 10px;
+}
+.footer-menu a{
+  color: #cfd2d6;
+  padding: 6px;
+  text-decoration: none;
+}
+.footer-menu a:hover, .social i:hover{
+  color: #c7940a;
+}
+
+@media screen and (max-width: 850px) {
+  .row.primary {
+    grid-template-columns: 1fr;
+  }
+}
+        
+        input[type="text"],
+        input[type="password"] {
+            width: 70%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        input[type="submit"] {
+            width: 70%;
+            padding: 10px;
+            background-color: #000000;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #000000;
+        }
+        
+        .error-message {
+            text-align: center;
+            color: red;
+            margin-bottom: 15px;
+        }
+        .navbar {
+            background-color: #055000;
+            overflow: hidden;
+            padding: 10px 0;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: rgb(230, 251, 4);
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .navbar a:hover {
+            background-color:rgb(217, 255, 0);
+            color: rgb(0, 16, 74);
+        }
+        .navbar input[type=text] {
+            padding: 6px;
+            margin-top: 8px;
+            font-size: 17px;
+            border: none;
+
+        }
+        
   </style>
  </head>
  <body>
@@ -179,57 +326,38 @@
 </div>
 </section>
 </div>
-
-   
 <div class="navbar" >
-<a href="Home.html">
-HOME
-</a>
-<a href="Login.html">
-LOGIN
-</a>
-<a href="sigin.html">
-SIGIN
-</a>
-<a href="#mywedding">
-MY WEDDING
-</a>
-<a href="#foodcombo">
-FOOD COMBO
-</a>
-<a href="#promotion">
-PROMOTION &amp; EVENTS
-</a>
-<a href="#reservation">
-RESERVATION
-</a>
-<a href="#aboutus">
-ABOUT US
-</a>
+  <a href="Home.html">
+   HOME
+  </a>
+  <a href="sigin.html">
+   SIGIN
+  </a>
+  <a href="login.html">
+   LOGIN
+  </a>
+
+  
+  <div class="search-container">
+   <form action="/search">
+    <input name="search" placeholder="Search.." type="text"/>
+   
+     
+   </form>
+  </div>
+ </div>
         <div class="Hall-text">
         <h2>Well Come To</h2>
         </div>
 
         <div class="Hall-text1">
          <h2>BRIDAL BLIISS</h2>
-        </div>
-        <div class="Hall-text2">
-            <a href="Login.html">
-                LOGIN
-                </a>
-           </div>
-<div class="search-container">
-<form action="/search">
-<input name="search" placeholder="Search.." type="text"/>
-<button type="submit">
-<i class="fa fa-search">
-</i>
-</button>
-</form>
-</div>
+        </div>  
+         </div>
+          </div>
 </div>
 <div class="background-image">
-    <img alt="Beautiful wedding venue with decorated tables and chairs, surrounded by lush greenery and flowers" height="1000" src="blog1.jpg"   background-size: cover ;/>
+    <img alt="Beautiful wedding venue with decorated tables and chairs, surrounded by lush greenery and flowers" height="1000" src="blog3.jpg"   background-size: cover ;/>
     <div class="hero-text" >
         </div>
    
@@ -248,7 +376,7 @@ ABOUT US
           <div class="Hall-card">
             <div class="background-image">
             
-        </div>              
+            </div>              
             <img src="terms1.jpg" alt="Car">
             <h3>SUNSET PLAINS</h3>
             <p>Colombu</p>
@@ -268,40 +396,72 @@ ABOUT US
             <p>Colombu</p>
             <a href="#" class="button">Booking Now</a>
             </div>
-        
-        </div>
       </div>
     </section>
   </div>
   </div>
   <footer>
-    <div class="row copyright">
-      <div class="navbar">
+
+    <div class="row primary">
+      <div class="column about">
+        <p class="loc">
+          <i class="fa fa-map-marker" aria-hidden="true"></i>
+          316, Ruwan Perera Road, Sri Lanka<br>
+        <h3>WHY US</h3>
+        
+        The Ultimate Setting For Some Of Life's Greatest Moments,<br>
     
-        <a href="Home.html">
-            HOME
-            </a>
-            <a href="Login.html">
-            LOGIN
-            </a>
-            <a href="sigin.html">
-            SIGIN
-            </a>
-            <a href="#mywedding">
-            MY WEDDING
-            </a>
-            <a href="#foodcombo">
-            FOOD COMBO
-            </a>
-            <a href="#promotion">
-            PROMOTION &amp; EVENTS
-            </a>
-            <a href="#reservation">
-            RESERVATION
-            </a>
-            <a href="#aboutus">
-            ABOUT US
-            </a>
+        We Create Incredible Memories For Guests On Their 'Once In a Lifetime' Journey.<br>
+        <br>
+        <h3>FIND US</h3>
+        </p>
+        <div class="social">
+          <a href="https://www.facebook.com/" class="fa fa-facebook-square"></a>
+          <a href="https://twitter.com/" class="fa fa-twitter-square"></a>
+          <a href="https://lk.linkedin.com/" class="fa fa-linkedin-square"></a>
+          <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+        </div>
+      </div>
+    
+      <div class="column link">
+      <br><br>
+        GENERAL INQUIRIES<br>
+      TEL : +94 75 123 1299<br>
+      Email : we@sBridalBliiss.lk<br><br>
+    
+      SUNSET PLAINS<br>
+      TEL : +94 77 210 1187<br>
+      Email:sunsetreserve@sunsetplains.lk<br><br>
+    
+      CINAMON<br>
+      TEL : +94 70 345 2876<br>
+      Email: newrathada@Cinamon.lk<br><br>
+      
+      TAJ SAMUDRA<br>
+      TEL : +94 72 666 8765<br>
+      Email: marlin@Tajsamudra.lk<br><br>
+        
+      </div>
+      <div class="column subscribe">
+      <div>
+      <p>
+        <img class="qr" src="./images/qr.png">
+          <u>OPERATING HOURS</u><br><br>
+    
+      MON - SAT -<br>
+         &nbsp &nbsp 8AM TO 10PM<br>
+      SUN -<br>
+         &nbsp &nbsp 8AM TO 12PM
+       </p>
+        </div>
+      <div>
+        <p class="news">Sign up for the BridalBliiss newsletter<p>
+          <input type="email" placeholder="Your email id here" />
+          <button>Subscribe</button>
+        </div>
+      </div>
+    </div>
+    
     </footer>
   
  </body>
