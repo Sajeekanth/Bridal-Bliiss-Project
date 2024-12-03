@@ -1,0 +1,130 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 98vh;
+  background-image: url(wedingBg.jpg); size: 500px;
+  background-size: cover;
+  
+}
+
+.btn {
+  padding: 8px 20px;
+  border-radius: 1000;
+  overflow: hidden;
+}
+.btn::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(120deg, transparent, var(--primary-color), transparent);
+  transform: translateX(-200%);
+  transition: 0.8s;
+}
+.btn:hover {
+  background: transparent;
+  box-shadow: 0 0 20px 10px rgba(51, 152, 219, 0.5);
+}
+.btn:hover::before {
+  transform: translateX(100%);
+}
+
+.form-input-material {
+  --input-default-border-color: rgb(255, 255, 255);
+  --input-border-bottom-color: rgb(255, 255, 255);
+}
+.form-input-material input {
+  color: white;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 40px;
+  color: white;
+  background: rgba(0, 0, 0, 0.574);
+  border-radius: 10px;
+  box-shadow: 0 0.4px 0.4px rgba(128, 128, 128, 0.109), 0 1px 1px rgba(128, 128, 128, 0.155), 0 2.1px 2.1px rgba(128, 128, 128, 0.195), 0 4.4px 4.4px rgba(128, 128, 128, 0.241), 0 12px 12px rgba(128, 128, 128, 0.35);
+}
+.login-form h1 {
+  margin: 0 0 24px 0;
+}
+.login-form .form-input-material {
+  margin: 12px 0;
+}
+.login-form .btn {
+  width: 100%;
+  margin: 18px 0 9px 0;
+}
+
+ html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            background-color: #3b595e;
+            overflow: hidden;
+            padding: 10px 0;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .navbar a:hover {
+            background-color: #0c0e89;
+            color: rgb(83, 89, 3);
+        }
+        .navbar .search-container {
+            float: right;
+        }
+        .navbar input[type=text] {
+            padding: 6px;
+            margin-top: 8px;
+            font-size: 17px;
+            border: none;
+        }
+        .navbar .search-container button {
+            float: right;
+            padding: 6px 10px;
+            margin-top: 8px;
+            margin-right: 16px;
+            background: #b7b4b4;
+            font-size: 17px;
+            border: none;
+            cursor: pointer;
+        }
+        .navbar .search-container button:hover {
+            background: #ccc;
+        }
+        .hero-image {
+            position: relative;
+            text-align: center;
+            color: rgb(255, 244, 244);
+        }
+        .hero-image img {
+            width: 100%;
+            height: 100;
+            size: 500px;
+            background-size: cover;
+            background-image: url(wedingBg.jpg);
+        }
+        .hero-text {
+            position: absolute;
+            top:  50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 75px;
+            color: #af1002;
+            text-shadow: 2px 2px 4px #fffb00;
+    
+        }
