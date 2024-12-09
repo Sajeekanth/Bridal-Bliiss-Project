@@ -1,0 +1,322 @@
+
+  body {
+        min-height: 100vh;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .section {
+    padding: 5rem 0;
+    margin-top: 10px;
+    margin-left: 10px;
+      }
+  
+  .Hall-grid {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .Hall-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+    width: 300px;
+    transition: transform 0.5s;
+  }
+  
+  .Hall-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .Hall-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+  }
+  
+  .button-secondary {
+    background-color: #000000;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  h2{
+    color:rgb(232, 232, 242);
+  }
+
+        .navbar {
+            background-color: #003826;
+            overflow: hidden;
+            padding: 10px 0;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: rgb(0, 110, 9);
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .navbar a:hover {
+            background-color:rgb(5, 46, 0);
+            color: rgb(255, 234, 0);
+        }
+        .navbar .search-container {
+            float: right;
+        }
+        .navbar input[type=text] {
+            padding: 6px;
+            margin-top: 8px;
+            font-size: 17px;
+            border: none;
+
+        }
+        .navbar .search-container button {
+            float: right;
+            padding: 6px 8px;
+            margin-top: 8px;
+            margin-right: 16px;
+            background: #018715;
+            font-size: 17px;
+            border: none;
+            cursor: pointer;
+        }
+        .navbar .search-container button:hover {
+            background: #bbbf6c;
+        }
+        .hero-image {
+            position: relative;
+            text-align: center;
+            color: rgb(255, 255, 255);
+        }
+        .hero-image img {
+            width: 100%;
+            height: 100;
+            size: 500px;
+            background-size: cover;
+            background-image: url(wedingBg.jpg);
+        }
+        .hero-text {
+            position: absolute;
+            top:  50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-style: inherit;
+            font-size: 75px;
+            color: #1d6702;
+            text-shadow: 0px 0px 10px #62ff00;
+        }
+        .Hall-text {
+            position: absolute;
+            top:  40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-style: initial;
+            font-size: 60px;
+            color: #169403;
+            text-shadow: 0px 0px 10px #11ff00;
+        }
+        .Hall-text1 {
+            position: absolute;
+            top:  70%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-style: initial;
+            font-size: 70px;
+            color: #157400;
+            text-shadow: 0px 0px 10px #00ff0d;
+        }
+    
+
+footer {
+  background-color: black;
+  color: white;
+  bottom: 0;
+  width: 100vw;
+  font-size: 16px;
+}
+footer * {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+.row {
+  padding: 1em 1em;
+}
+.row.primary {
+  display: grid;
+  grid-template-columns: 2.5fr 2fr 2.5fr;
+  align-items: stretch;
+}
+.column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2em;
+  min-height: 15em;
+}
+.column subscribe {
+  display: grid;
+  grid-template-rows:  2fr 2.5fr;
+  align-items: stretch;
+}
+.qr{
+  width:30%;
+  float: right;
+  border: 1px dotted black;
+  margin: 0px 0px 15px 20px;
+}
+.news{
+	font-size: 15px;
+}
+.loc{
+  font-size:20px;
+}
+h3 {
+  width: 100%;
+  text-align: left;
+  color: rgb(0, 0, 0);
+  font-size: 1.8em;
+  white-space: nowrap;
+}
+column link {
+
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+.about p {
+  text-align: justify;
+  line-height: 2;
+  margin: 0;
+}
+input,
+button {
+  font-size: 1em;
+  padding: 1em;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+button {
+  background-color: #c7940a;
+  color: #ffffff;
+}
+div.social {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2.4em;
+  flex-direction: row;
+  margin-top: 0.5em;
+}
+.social a {
+  color: white;
+}
+
+.footer-menu{
+  float: left;
+    margin-top: 10px;
+}
+.footer-menu a{
+  color: #cfd2d6;
+  padding: 6px;
+  text-decoration: none;
+}
+.footer-menu a:hover, .social i:hover{
+  color: #c7940a;
+}
+
+@media screen and (max-width: 850px) {
+  .row.primary {
+    grid-template-columns: 1fr;
+  }
+}
+        
+        input[type="text"],
+        input[type="password"] {
+            width: 70%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        input[type="submit"] {
+            width: 70%;
+            padding: 10px;
+            background-color: #000000;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #000000;
+        }
+        
+        .error-message {
+            text-align: center;
+            color: red;
+            margin-bottom: 15px;
+        }
+        .navbar {
+            background-color: #055000;
+            overflow: hidden;
+            padding: 10px 0;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: rgb(230, 251, 4);
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .navbar a:hover {
+            background-color:rgb(217, 255, 0);
+            color: rgb(0, 16, 74);
+        }
+        .navbar input[type=text] {
+            padding: 6px;
+            margin-top: 8px;
+            font-size: 17px;
+            border: none;
+
+        }
+        @media screen and (max-width: 768px) {
+      .hero-text {
+        font-size: 32px;
+      }
+      @media screen and (max-width: 480px) {
+      .navbar a {
+        padding: 10px;
+        font-size: 14px;
+      }
+        
+ 
