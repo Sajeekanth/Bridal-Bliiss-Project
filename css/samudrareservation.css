@@ -82,7 +82,7 @@
         
         .column subscribe {
             display: grid;
-            grid-template-raws: 2fr 2.5fr;
+            /* grid-template-raws: 2fr 2.5fr; */
             align-items: stretch;
         }
         
@@ -201,7 +201,7 @@
             font-size: 50px;
             font-family: sans-serif;
             background: -webkit-linear-gradient(rgb(238, 142, 255), #e5ff00);
-            -webkit-background-clip: text;
+            /* -webkit-background-clip: text; */
             -webkit-text-fill-color: transparent;
         }
 

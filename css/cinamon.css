@@ -95,7 +95,7 @@ footer * {
 }
 .column subscribe {
   display: grid;
-  grid-template-raws: 2fr 2.5fr;
+  /* grid-template-raws: 2fr 2.5fr; */
   align-items: stretch;
 }
 .qr{
