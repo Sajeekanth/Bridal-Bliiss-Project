@@ -2,7 +2,7 @@
 
 <head>
     <title>Hotel Sunset Plains</title>
-    <link rel="stylesheet" href="css/sunsetplainsreservation.css">
+    <link rel="stylesheet" href="css/cinamonreservation.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script>
     function calculateTotal() {
@@ -52,19 +52,19 @@
       var totalAmount = (weddingPlanPrice + (foodComboPrice * guestCount) + (cocktailPrice * guestCount));
       document.getElementById("totalAmount").innerHTML = "Rs." + totalAmount;
     }
-  </script>
-    
+
+</script>
 </head>
 
 <body>
     <header class="heading" id="home">
         <div id="bar">
-  <a href="./index.html">HOME</a>
-  <a href="./sunsetwedding.html">MY WEDDING</a>
-  <a href="./sunsetFood&Beverage_Menu.html">FOOD COMBO</a>
-  <a href="./sunsetpromotion.html">PROMOTION & EVENTS</a>
-  <a href="./sunsetplainsreservation.html">RESERVATION</a>
-  <a href="./sunsetAboutus.html">ABOUT US</a>
+            <a href="./index.html">HOME</a>
+            <a href="./sunsetwedding.html">MY WEDDING</a>
+            <a href="./sunsetFood&Beverage_Menu.html">FOOD COMBO</a>
+            <a href="./sunsetpromotion.html">PROMOTION & EVENTS</a>
+            <a href="./sunsetplainsreservation.html">RESERVATION</a>
+            <a href="./sunsetAboutus.html">ABOUT US</a>
 
   <input type="text" placeholder="Search..">
   <img id="search" src="./images/search.png">
@@ -73,21 +73,23 @@
 
     <div class="div1">
 
-        <form>
+        <form method="post" action="php/cinamonreservation.php">
             <h1 class="reg"><b><u><i>Register</i></u></b></h1>
 
-            <p><b><i>Thank you considering Hotel Sunset Plains as the destination for your upcoming wedding.We look forward to creating an</i></b></p>
-            <p><b><i>incdelible memory of this occasion for you and your guests.</i></b></p>
-            <p><b><i>Once you have completed all required fields below,it will be our pleasure to contact you within one business day to discuss</i></b></p>
-            <p><b><i>your bigday.</i></b></p><br><br> Name:
+            <p><b><i>"Thank you for selecting Cinnamon Colombo as the venue for your special event. We are delighted to have the opportunity to make your celebration extraordinary and filled with unforgettable moments.</i></b></p>
+            <p><b><i>Our team is here to ensure every detail is just right, from the ambiance to the dining experience. If you have any specific requests, please don’t hesitate to reach out.
+            </i></b></p>
+            <p><b><i>We can’t wait to welcome you and your guests to Cinnamon Colombo for an event to remember. Thank you for choosing us!"</i></b></p>
+       <br><br> 
 
 
 
-            <input type="text" name="Name" placeholder="name"><br><br> Contact Number:<input type="text" name="Contact Number" placeholder="contact number"><br><br> E-mail:
-            <input type="text" name="E-mail" placeholder="email"><br><br> Date:
+            <input type="text" name="Name" placeholder="name"><br><br>
+            <input type="text" name="Contact_Number" placeholder="contact number"><br><br>
+            <input type="text" name="mail" placeholder="email"><br><br>
             <input type="date" name="Date" placeholder="date"><br><br> 
 			Select the wedding plan:
-<select id="weddingPlan" onchange="calculateTotal()">
+<select id="weddingPlan" onchange="calculateTotal()" name="hall">
 
 										 <option>Platinum-Romantic</option>
 										 <option>Platinum-Ancient</option>
@@ -107,7 +109,7 @@
 										 <option>Bronze-Rustic</option>
 </select><br><br> 
 Select the food combo:
-<select id="foodCombo" onchange="calculateTotal()">
+<select id="foodCombo" onchange="calculateTotal()" name="food">
 				<option>Menu 1</option>
 				<option>Menu 2</option>
 				<option>Menu 3</option>
@@ -117,7 +119,7 @@ Select the food combo:
 </select>
 <br><br> 
 Select the cocktail menu:
-<select id="cocktailMenu" onchange="calculateTotal()">
+<select id="cocktailMenu" onchange="calculateTotal()" name="cook">-
 				<option>Menu 1</option>
 				<option>Menu 2</option>
 				<option>Menu 3</option>
@@ -125,10 +127,10 @@ Select the cocktail menu:
 <br><br>
 
 <label for="guestCount">Number of Guests:</label>
-<input type="number" id="guestCount" >
+<input type="number" id="guestCount" name="count">
 <br><br>
   
-<h3>Total Amount: <span id="totalAmount">Rs.0.00</span></h3>
+<!-- <h3>Total Amount: <span id="totalAmount">Rs.0.00</span></h3>
  
             <B><I>Pay the 50% advance now and pay your balance after the event</I></B><br><br> Pay Now:
             <select>
@@ -141,9 +143,9 @@ Select the cocktail menu:
             <input type="checkbox" name="check">Accept terms & Conditions<br>
             <input type="checkbox" name="check">I'm not a robot<br><br>
 			<a href="./confirmation.html">
-			
-            <input type="button" value="Submit" id="but" />
-			</a>
+			 -->
+            <input type="submit" value="Submit" id="but" />
+			<!-- </a> -->
         </form>
 
     </div>
@@ -193,14 +195,12 @@ Select the cocktail menu:
 
         <div class="row copyright">
             <div class="footer-menu">
-
                 <a href="./index.html">HOME</a>
-    <a href="./sunsetwedding.html">MY WEDDING</a>
-    <a href="./sunsetFood&Beverage_Menu.html">FOOD COMBO</a>
-    <a href="./sunsetpromotion.html">PROMOTION & EVENTS</a>
-    <a href="./sunsetplainsreservation.html">RESERVATION</a>
-    <a href="./sunsetAboutus.html">ABOUT US</a>
-
+                <a href="./sunsetwedding.html">MY WEDDING</a>
+                <a href="./sunsetFood&Beverage_Menu.html">FOOD COMBO</a>
+                <a href="./sunsetpromotion.html">PROMOTION & EVENTS</a>
+                <a href="./sunsetplainsreservation.html">RESERVATION</a>
+                <a href="./sunsetAboutus.html">ABOUT US</a>
 
             </div>
             <p>Copyright &copy; 2023</p>

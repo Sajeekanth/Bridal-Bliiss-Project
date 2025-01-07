@@ -10,7 +10,7 @@
 			} else {
 				die("Error ".mysqli_error($connect));
 			}
-            header('Location: ../sunsetreservation.html');
+            header('Location: ../sunsetplainreservation.html');
             exit;
 		} catch (Exception $e) {
 			die($e->getMessage());
