@@ -1,9 +1,9 @@
 <?php
 	require_once 'dbconf.php';
-	function AddData($connect,$name,$connect_number,$email,$date,$wedding_plan,$food_combo,$Number_of_Guests){
+	function AddData($connect,$name,$connect_number,$email,$date,$wedding_plan,$food_combo,$cockt_menu,$Number_of_Guests){
 		try {
            
-			$sql = "INSERT INTO user VALUES('$name','$connect_number','$email','$date','$wedding_plan','$food_combo','$Number_of_Guests')";
+			$sql = "INSERT INTO cinamonreservation VALUES('$name','$connect_number','$email','$date','$wedding_plan','$cockt_menu','$food_combo','$Number_of_Guests')";
 			$result = mysqli_query($connect,$sql);
 			if ($result) {
                                                                     
@@ -18,15 +18,15 @@
 	}
 	
 	if ($_SERVER['REQUEST_METHOD'] == "POST") {
-		$name = $_POST['name'];
-		$connect_number =$_POST['connect_number'];
-		$email = $_POST['email'];
-		$date = $_POST['date'];
-		$wedding_plan = $_POST['wedding_	plan'];
-		$food_combo = $_POST['food_combo'];
-		$cockt_menu = $_POST['cockt_menu'];
-		$Number_of_Guests = $_POST['Number_of_Guests'];
-		AddData($connect,$name,$connect_number,$email,$date,$wedding_plan,$food_combo,$Number_of_Guests);
+		$name = $_POST['Name'];
+		$connect_number =$_POST['Contact_Number'];
+		$email = $_POST['mail'];
+		$date = $_POST['Date'];
+		$wedding_plan = $_POST['hall'];
+		$food_combo = $_POST['food'];
+		$cockt_menu = $_POST['cook'];
+		$Number_of_Guests = $_POST['count'];
+		AddData($connect,$name,$connect_number,$email,$date,$wedding_plan,$food_combo,$cockt_menu,$Number_of_Guests);
 	}
 
 	?>
