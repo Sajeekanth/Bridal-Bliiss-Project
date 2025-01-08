@@ -29,4 +29,5 @@
 		AddData($connect,$name,$connect_number,$email,$date,$wedding_plan,$food_combo,$cockt_menu,$Number_of_Guests);
 	}
 
+
 	?>
