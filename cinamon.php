@@ -15,6 +15,7 @@
     <a href="./cinamonpromotin.php">PROMOTION & EVENTS</a>
     <a href="./cinamonreservation.php">RESERVATION</a>
     <a href="./cinamonAboutus.php">ABOUT US</a>
+    
   <input type="text" placeholder="Search..">
   <img id="search" src="./images/search.png">
 </div>
@@ -130,7 +131,7 @@
     <a href="./cinamonpromotin.php">PROMOTION & EVENTS</a>
     <a href="./cinamonreservation.php">RESERVATION</a>
     <a href="./cinamonAboutus.php">ABOUT US</a>
-    
+
   </div>
    <p>Copyright &copy; 2024</p>
 </div>

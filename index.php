@@ -15,7 +15,8 @@
   <a href="index.php">
    HOME
   </a>
-  <a href="signup.php">
+  <a href="signup.php
+  ">
    SIGNUP
   </a>
   <a href="login.php">
@@ -65,21 +66,21 @@
             <img src="images/terms1.jpg" alt="Car">
             <h3>SUNSET PLAINS</h3>
             <p>Colombu</p>
-            <a href="sunsetplains.html" class="button">Booking Now</a>
+            <a href="sunsetplains.php" class="button">Booking Now</a>
           </div>
 
           <div class="Hall-card">
             <img src="images/Cinnamon 1.jpeg" alt="Car">
             <h3>CINAMON</h3>
             <p>Colombu</p>
-            <a href="cinamon.html" class="button">Booking Now</a>
+            <a href="cinamon.php" class="button">Booking Now</a>
           </div>
 
           <div class="Hall-card">
             <img src="images/Tai samudra 1.jpg" alt="Car">
             <h3>TAJ SAMUDRA</h3>
             <p>Colombu</p>
-            <a href="samudra.html" class="button">Booking Now</a>
+            <a href="samudra.php" class="button">Booking Now</a>
             </div>
       </div>
     </section>

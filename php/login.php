@@ -19,7 +19,7 @@ if (isset($_POST['login'])) {
             
            //$_SESSION["user_name"] = $row["username"];
             
-            header("Location: ../index.html");
+            header("Location: ../index.php");
             exit; // Ensure no further code runs after redirection
         } else {
             $error = "Invalid username or password.";
