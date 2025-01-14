@@ -12,13 +12,13 @@
  <body>
 </section>
 <div class="navbar" >
-  <a href="index.html">
+  <a href="index.php">
    HOME
   </a>
-  <a href="signup.html">
+  <a href="signup.php">
    SIGNUP
   </a>
-  <a href="login.html">
+  <a href="login.php">
    LOGIN
   </a>
 

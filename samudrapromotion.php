@@ -10,12 +10,12 @@
 <header class="heading" id="home">
 <div id="bar">
 
-    <a href="./index.html">HOME</a>
-    <a href="./samudrawedding.html">MY WEDDING</a>
-    <a href="./samudraFood&Beverage_Menu.html">FOOD COMBO</a>
-    <a href="./samudrapromotin.html">PROMOTION & EVENTS</a>
-    <a href="./samudrareservation.html">RESERVATION</a>
-    <a href="./samudraAboutus.html">ABOUT US</a>
+<a href="./index.php">HOME</a>
+  <a href="./samudrawedding.php">MY WEDDING</a>
+  <a href="./samudraFood&Beverage_Menu.php">FOOD COMBO</a>
+  <a href="./samudrapromotin.php">PROMOTION & EVENTS</a>
+  <a href="./samudrareservation.php">RESERVATION</a>
+  <a href="./samudraAboutus.php">ABOUT US</a>
 
   <input type="text" placeholder="Search..">
   <img id="search" src="./images/search.png">
@@ -210,12 +210,12 @@ function showSlides() {
 <div class="row copyright">
   <div class="footer-menu">
     
-    <a href="./index.html">HOME</a>
-    <a href="./samudrawedding.html">MY WEDDING</a>
-    <a href="./samudraFood&Beverage_Menu.html">FOOD COMBO</a>
-    <a href="./samudrapromotin.html">PROMOTION & EVENTS</a>
-    <a href="./samudrareservation.html">RESERVATION</a>
-    <a href="./samudraAboutus.html">ABOUT US</a>
+  <a href="./index.php">HOME</a>
+  <a href="./samudrawedding.php">MY WEDDING</a>
+  <a href="./samudraFood&Beverage_Menu.php">FOOD COMBO</a>
+  <a href="./samudrapromotin.php">PROMOTION & EVENTS</a>
+  <a href="./samudrareservation.php">RESERVATION</a>
+  <a href="./samudraAboutus.php">ABOUT US</a>
 
 
 

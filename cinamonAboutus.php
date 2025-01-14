@@ -8,12 +8,12 @@
 <body>
 <header class="heading" id="home">
 <div id="bar">
-<a href="./index.html">HOME</a>
-<a href="./cinamonweding.html">MY WEDDING</a>
-<a href="./cinamonFood&Beverage_Menu.html">FOOD COMBO</a>
-<a href="./cinamonpromotin.html">PROMOTION & EVENTS</a>
-<a href="./cinamonreservation.html">RESERVATION</a>
-<a href="./cinamonAboutus.html">ABOUT US</a>
+<a href="./index.php">HOME</a>
+    <a href="./cinamonweding.php">MY WEDDING</a>
+    <a href="./cinamonFood&Beverage_Menu.php">FOOD COMBO</a>
+    <a href="./cinamonpromotin.php">PROMOTION & EVENTS</a>
+    <a href="./cinamonreservation.php">RESERVATION</a>
+    <a href="./cinamonAboutus.php">ABOUT US</a>
 
 
 <input type="text" placeholder="Search..">
@@ -115,13 +115,12 @@
 <div class="row copyright">
   <div class="footer-menu">
 
-  <a href="./index.html">HOME</a>
-  <a href="./cinamonweding.html">MY WEDDING</a>
-  <a href="./cinamonFood&Beverage_Menu.html">FOOD COMBO</a>
-  <a href="./cinamonpromotin.html">PROMOTION & EVENTS</a>
-  <a href="./cinamonreservation.html">RESERVATION</a>
-  <a href="./cinamonAboutus.html">ABOUT US</a>
-
+  <a href="./index.php">HOME</a>
+    <a href="./cinamonweding.php">MY WEDDING</a>
+    <a href="./cinamonFood&Beverage_Menu.php">FOOD COMBO</a>
+    <a href="./cinamonpromotin.php">PROMOTION & EVENTS</a>
+    <a href="./cinamonreservation.php">RESERVATION</a>
+    <a href="./cinamonAboutus.php">ABOUT US</a>
 
 
   </div>

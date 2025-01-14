@@ -9,12 +9,12 @@
 <body>
 <header class="heading" id="home">
 <div id="bar">
-  <a href="./index.html">HOME</a>
-  <a href="./sunsetwedding.html">MY WEDDING</a>
-  <a href="./sunsetFood&Beverage_Menu.html">FOOD COMBO</a>
-  <a href="./sunsetpromotion.html">PROMOTION & EVENTS</a>
-  <a href="./sunsetplainsreservation.html">RESERVATION</a>
-  <a href="./sunsetAboutus.html">ABOUT US</a>
+  <a href="./index.php">HOME</a>
+  <a href="./sunsetwedding.php">MY WEDDING</a>
+  <a href="./sunsetFood&Beverage_Menu.php">FOOD COMBO</a>
+  <a href="./sunsetpromotion.php">PROMOTION & EVENTS</a>
+  <a href="./sunsetplainsreservation.php">RESERVATION</a>
+  <a href="./sunsetAboutus.php">ABOUT US</a>
 
   <input type="text" placeholder="Search..">
   <img id="search" src="./images/search.png">
@@ -212,12 +212,12 @@ function showSlides() {
 <div class="row copyright">
   <div class="footer-menu">
 
-    <a href="./index.html">HOME</a>
-    <a href="./sunsetwedding.html">MY WEDDING</a>
-    <a href="./sunsetFood&Beverage_Menu.html">FOOD COMBO</a>
-    <a href="./sunsetFood&Beverage_Menu.html">PROMOTION & EVENTS</a>
-    <a href="./sunsetplainsreservation.html">RESERVATION</a>
-    <a href="./sunsetAboutus.html">ABOUT US</a>
+  <a href="./index.php">HOME</a>
+  <a href="./sunsetwedding.php">MY WEDDING</a>
+  <a href="./sunsetFood&Beverage_Menu.php">FOOD COMBO</a>
+  <a href="./sunsetpromotion.php">PROMOTION & EVENTS</a>
+  <a href="./sunsetplainsreservation.php">RESERVATION</a>
+  <a href="./sunsetAboutus.php">ABOUT US</a>
 
 
 

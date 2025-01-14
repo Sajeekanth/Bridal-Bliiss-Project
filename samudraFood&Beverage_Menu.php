@@ -7,12 +7,13 @@
 <body>
 <header class="heading" id="home">
 <div id="bar">
-  <a href="./index.html">HOME</a>
-  <a href="./sunsetwedding.html">MY WEDDING</a>
-  <a href="./sunsetFood&Beverage_Menu.html">FOOD COMBO</a>
-  <a href="./sunsetpromotion.html">PROMOTION & EVENTS</a>
-  <a href="./sunsetplainsreservation.html">RESERVATION</a>
-  <a href="./sunsetAboutus.html">ABOUT US</a>
+  
+<a href="./index.php">HOME</a>
+  <a href="./samudrawedding.php">MY WEDDING</a>
+  <a href="./samudraFood&Beverage_Menu.php">FOOD COMBO</a>
+  <a href="./samudrapromotin.php">PROMOTION & EVENTS</a>
+  <a href="./samudrareservation.php">RESERVATION</a>
+  <a href="./samudraAboutus.php">ABOUT US</a>
 
   <input type="text" placeholder="Search..">
   <img id="search" src="./images/search.png">
@@ -21,9 +22,8 @@
 
   <div class="div1">
    <h1 class="combo"><b><u>Food & Beverage Combo</u></b></h1>
-<p>As a family in Sri Lanka dining experiences are always a pleasure to remember. From the worth of a rustic dining table to the comfort of our natural wonders, our founder, the late Robert hoorey, ensured these wonders specialities of local hospitality remain with us for the rest time.<br><br>
-Hotel sunset plains is home to 9 food and cocktail outlets serving a variety of cuisines and dishes, most restaurants include alfresco dining with stunning views of the grand lawn and lake.<br>
-Choose your food package!</p>
+<p>Fine Dining at Taj Restaurants
+  Embark on a journey of exquisite experiences for the discerning connoisseur, seamlessly woven together with impeccable service, sophisticated ambience and masterful culinary artistry.</p>
 </div>
 <br>
 <br>
@@ -32,7 +32,7 @@ Choose your food package!</p>
   <div class="row">
   <div class="col">
     <div class="content">
-      <img src="./images/food9.jpg" alt="menu1" style="width:100%">
+      <img src="./images/Taj samudra/tajsamudra 19.jpg" alt="menu1" style="width:100%">
       <h4 class="me">Menu 1</h4>
       <ul>
 	  <li>Crème mango punch</li>
@@ -49,7 +49,7 @@ Choose your food package!</p>
   </div>
   <div class="col">
     <div class="content">
-      <img src="./images/food3.jpeg" alt="menu2" style="width:100%">
+      <img src="./images/Taj samudra/tajsamudra 20.jpg" alt="menu2" style="width:100%">
       <h4 class="me">Menu 2</h4>
       <ul>
 	  <li>Creamy mango punch or royal faluda</li>
@@ -65,7 +65,7 @@ Choose your food package!</p>
   </div>
   <div class="col">
     <div class="content">
-      <img src="./images/food7.jpeg" alt="menu3" style="width:100%;">
+      <img src="./images/Taj samudra/tajsamudra 21.jpg" alt="menu3" style="width:100%;">
       <h4 class="me">Menu 3</h4>
       <ul>
 	  <li>Crème orange punch</li>
@@ -82,7 +82,7 @@ Choose your food package!</p>
   </div>
   <div class="col">
     <div class="content">
-      <img src="./images/food1.jpeg" alt="menu4" style="width:100%">
+      <img src="./images/Taj samudra/tajsamudra 23.jpg" alt="menu4" style="width:100%">
       <h4 class="me">Menu 4</h4>
       <ul>
 	  <li>Mojito</li>
@@ -99,7 +99,7 @@ Choose your food package!</p>
   </div>
   <div class="col">
     <div class="content">
-      <img src="./images/food2.jpeg" alt="menu5" style="width:100%">
+      <img src="./images/Taj samudra/tajsamudra 25.jpg" alt="menu5" style="width:100%">
       <h4 class="me">Menu 5</h4>
       <ul>
 	  <li>Almong milk shake</li>
@@ -116,7 +116,7 @@ Choose your food package!</p>
   </div>
   <div class="col">
     <div class="content">
-      <img src="./images/food8.jpeg" alt="menu6" style="width:100%; height:101%;">
+      <img src="./images/Taj samudra/tajsamudra 22.jpg" alt="menu6" style="width:100%; height:101%;">
       <h4 class="me">Menu 6</h4>
       <ul>
 	  <li>Cashew daksh shake</li>
@@ -141,7 +141,7 @@ Choose your food package!</p>
   <div class="row">
   <div class="col">
     <div class="content">
-      <img src="./images/cock1.jpeg" alt="menu1" style="width:100%">
+      <img src="./images/Taj samudra/chocalate penut butter.jpg" alt="menu1" style="width:100%">
       <h4 class="me">Menu 1</h4>
       <ul>
 	  <li>Welcome drink</li>
@@ -155,7 +155,7 @@ Choose your food package!</p>
   </div>
   <div class="col">
     <div class="content">
-      <img src="./images/cock3.jpeg" alt="menu2" style="width:100%">
+      <img src="./images/Taj samudra/vannila.jpg" alt="menu2" style="width:100%">
       <h4 class="me">Menu 2</h4>
       <ul>
 	  <li>Welcome drink</li>
@@ -169,7 +169,7 @@ Choose your food package!</p>
   </div>
   <div class="col">
     <div class="content">
-      <img src="./images/cock2.jpeg" alt="menu3" style="width:100%;">
+      <img src="./images/Taj samudra/strawberry.jpg" alt="menu3" style="width:100%;">
       <h4 class="me">Menu 3</h4>
       <ul>
 	  <li>Welcome drink</li>
@@ -249,13 +249,14 @@ Choose your food package!</p>
 <div class="row copyright">
   <div class="footer-menu">
 
-    <a href="./index.html">HOME</a>
-    <a href="./sunsetwedding.html">MY WEDDING</a>
-    <a href="./sunsetFood&Beverage_Menu.html">FOOD COMBO</a>
-    <a href="./sunsetpromotion.html">PROMOTION & EVENTS</a>
-    <a href="./sunsetplainsreservation.html">RESERVATION</a>
-    <a href="./sunsetAboutus.html">ABOUT US</a>
-  
+
+  <a href="./index.php">HOME</a>
+  <a href="./samudrawedding.php">MY WEDDING</a>
+  <a href="./samudraFood&Beverage_Menu.php">FOOD COMBO</a>
+  <a href="./samudrapromotin.php">PROMOTION & EVENTS</a>
+  <a href="./samudrareservation.php">RESERVATION</a>
+  <a href="./samudraAboutus.php">ABOUT US</a>
+
 
   </div>
    <p>Copyright &copy; 2023</p>

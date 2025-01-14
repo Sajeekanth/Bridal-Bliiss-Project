@@ -1,19 +1,19 @@
 <html>
 <head>
 <title>Hotel Sunset Plains</title>
-<link rel="stylesheet" href="css/samudrawedding.css">
+<link rel="stylesheet" href="css/mywedding.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
 
 <body>
 <header class="heading" id="home">
 <div id="bar">
-  <a href="./index.html">HOME</a>
-  <a href="./samudrawedding.html">MY WEDDING</a>
-  <a href="./samudraFood&Beverage_Menu.html">FOOD COMBO</a>
-  <a href="./samudrapromotin.html">PROMOTION & EVENTS</a>
-  <a href="./samudrareservation.html">RESERVATION</a>
-  <a href="./samudraAboutus.html">ABOUT US</a>
+  <a href="./index.php">HOME</a>
+  <a href="./sunsetwedding.php">MY WEDDING</a>
+  <a href="./sunsetFood&Beverage_Menu.php">FOOD COMBO</a>
+  <a href="./sunsetpromotion.php">PROMOTION & EVENTS</a>
+  <a href="./sunsetAboutus.php">RESERVATION</a>
+  <a href="./sunsetAboutus.php">ABOUT US</a>
 
   <input type="text" placeholder="Search..">
   <img id="search" src="./images/search.png">
@@ -44,10 +44,10 @@
           <div id="ancient-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Taj samudra/128643be27ff548c3bcde5efccdcb4f6.jpg" alt="Ancient ">
+                <img src="./images/ancient.jpg" alt="Ancient ">
               </div>
               <div class="carousel-item">
-                <img src="./images/Taj samudra/2962f4d1af33c749579e2c55d94b6a98.jpg" alt="Romantic">
+                <img src="./images/Romantic.jpg" alt="Romantic">
               </div>
             </div>
           </div>
@@ -56,10 +56,10 @@
           <div id="art-deco-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Taj samudra/37ce2a3cb67e003c5a26b16eab2db5ad.jpg" alt="Retro">
+                <img src="./images/Retro.jpg" alt="Retro">
               </div>
               <div class="carousel-item">
-                <img src="./images/Taj samudra/63d84d3ce963a633f309a1cd0daeabf3.jpg" alt="Art Deco">
+                <img src="./images/Art deco.jpg" alt="Art Deco">
               </div>
             </div>
           </div>
@@ -70,10 +70,10 @@
           <div id="retro-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Taj samudra/715be871eeb905434698a336ef47fdcd4e993a97-1400x1120.webp" alt="Vintage">
+                <img src="./images/Vintage.jpg" alt="Vintage">
               </div>
               <div class="carousel-item">
-                <img src="./images/Taj samudra/a122b78aace6941d930e71ba7eab2017ed9c8d14-475x510.webp" alt="Industrial">
+                <img src="./images/industrial.jpg" alt="Industrial">
               </div>
             </div>
           </div>
@@ -82,10 +82,10 @@
           <div id="vintage-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Taj samudra/c0401c93116df10e12fea3bf9ea9662394fc9b80-906x972.webp" alt="Natural">
+                <img src="./images/Natural.jpeg" alt="Natural">
               </div>
               <div class="carousel-item">
-                <img src="./images/Taj samudra/c0401c93116df10e12fea3bf9ea9662394fc9b80-906x972.webp" alt="Country">
+                <img src="./images/Country.jpg" alt="Country">
               </div>
             </div>
           </div>
@@ -223,12 +223,12 @@
 <div class="row copyright">
   <div class="footer-menu">
 
-    <a href="./index.html">HOME</a>
-    <a href="./samudrawedding.html">MY WEDDING</a>
-    <a href="./samudraFood&Beverage_Menu.html">FOOD COMBO</a>
-    <a href="./samudrapromotin.html">PROMOTION & EVENTS</a>
-    <a href="./samudrareservation.html">RESERVATION</a>
-    <a href="./samudraAboutus.html">ABOUT US</a>
+  <a href="./index.php">HOME</a>
+  <a href="./sunsetwedding.php">MY WEDDING</a>
+  <a href="./sunsetFood&Beverage_Menu.php">FOOD COMBO</a>
+  <a href="./sunsetpromotion.php">PROMOTION & EVENTS</a>
+  <a href="./sunsetAboutus.php">RESERVATION</a>
+  <a href="./sunsetAboutus.php">ABOUT US</a>
  
 
   </div>

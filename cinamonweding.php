@@ -1,19 +1,19 @@
 <html>
 <head>
 <title>Hotel Sunset Plains</title>
-<link rel="stylesheet" href="css/mywedding.css">
+<link rel="stylesheet" href="css/cinamonwedding.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
 
 <body>
 <header class="heading" id="home">
 <div id="bar">
-  <a href="./index.html">HOME</a>
-  <a href="./sunsetwedding.html">MY WEDDING</a>
-  <a href="./sunsetFood&Beverage_Menu.html">FOOD COMBO</a>
-  <a href="./sunsetpromotion.html">PROMOTION & EVENTS</a>
-  <a href="./sunsetAboutus.html">RESERVATION</a>
-  <a href="./sunsetAboutus.html">ABOUT US</a>
+    <a href="./index.php">HOME</a>
+    <a href="./cinamonweding.php">MY WEDDING</a>
+    <a href="./cinamonFood&Beverage_Menu.php">FOOD COMBO</a>
+    <a href="./cinamonpromotin.php">PROMOTION & EVENTS</a>
+    <a href="./cinamonreservation.php">RESERVATION</a>
+    <a href="./cinamonAboutus.php">ABOUT US</a>
 
   <input type="text" placeholder="Search..">
   <img id="search" src="./images/search.png">
@@ -29,63 +29,64 @@
       </tr>
       <tr>
         <td>
-          <p>Congratulations on your engagement! We are thrilled that you are considering our hotel as the venue for your special day. Our experienced wedding team is dedicated to making your wedding day unforgettable and stress-free. Our experienced wedding planners are dedicated to bringing your vision to life and creating a memorable and personalized experience for you and your guests. On this page, you will find detailed descriptions of each wedding type, including the number of guests that can be accommodated, the pricing, and the inclusions that are part of each package. We offer a variety of wedding packages designed to fit your unique needs and preferences.</p>
+          <p>Congratulations on your engagement!  Forever Begins Here
+            Have you noticed how many fairy tales begin with the phrase “in a land far, far away”? It’s a testament to how much a beautiful setting can bring a story to life. It’s only natural to want your wedding ceremony – the first chapter of the most important story in your life – to begin like a fairytale. After all, a dream wedding belongs at a stunning destination.</p>
         </td>
       </tr>
     </table>
 
     <table> 
       <tr>
-        <th>Platinum Package</th>
-        <th>Gold Package</th>
+        <th>By The Beach</th>
+        <th>In The City</th>
       </tr>
       <tr>
-        <td> Ancient Rs.3700,000 and Romantic Rs.4500,000
+        <td> 
           <div id="ancient-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/ancient.jpg" alt="Ancient ">
+                <img src="./images/cinamon/By The Beach.jpg" alt="Ancient ">
               </div>
               <div class="carousel-item">
-                <img src="./images/Romantic.jpg" alt="Romantic">
+                <img src="./images/cinamon/beach.jpg" alt="Romantic">
               </div>
             </div>
           </div>
         </td>
-        <td>Retro  Rs.280000 and Art Deco Rs.3000,000
+        <td>
           <div id="art-deco-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Retro.jpg" alt="Retro">
+                <img src="./images/cinamon/in the city.jpg" alt="Retro">
               </div>
               <div class="carousel-item">
-                <img src="./images/Art deco.jpg" alt="Art Deco">
+                <img src="./images/cinamon/city.jpg" alt="Art Deco">
               </div>
             </div>
           </div>
         </td>
       </tr>
       <tr>
-        <td> Vintage Rs.4000,000 and Industrial Rs.3500,000
+        <td> 
           <div id="retro-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Vintage.jpg" alt="Vintage">
+                <img src="./images/cinamon/Be.jpg" alt="Vintage">
               </div>
               <div class="carousel-item">
-                <img src="./images/industrial.jpg" alt="Industrial">
+                <img src="./images/cinamon/Beach4.jpg" alt="Industrial">
               </div>
             </div>
           </div>
         </td>
-        <td> Natural Rs.2500,000 and Country Rs.2600,000
+        <td> 
           <div id="vintage-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Natural.jpeg" alt="Natural">
+                <img src="./images/cinamon/cinamoncitty01.jpeg" alt="Natural">
               </div>
               <div class="carousel-item">
-                <img src="./images/Country.jpg" alt="Country">
+                <img src="./images/cinamon/city5.jpg" alt="Country">
               </div>
             </div>
           </div>
@@ -95,56 +96,57 @@
 
     <table> 
       <tr>
-        <th>Silver Package</th>
-        <th>Bronze Package</th>
+        <th>In The Gardens</th>
+        <th>Im The Hills</th>
       </tr>
       <tr>
-        <td> Eclectic Rs.2000,000 and Nautical Rs.1600,000
+        <td> 
           <div id="eclectic-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Eclectic.jpg" alt="Eclectic">
+                <img src="./images/cinamon/In the gardens.jpg" alt="Eclectic">
               </div>
               <div class="carousel-item">
-                <img src="./images/Nautical.jpg" alt="Nautical">
+                <img src="./images/cinamon/garden1.jpg" alt="Nautical">
               </div>
             </div>
           </div>
         </td>
-        <td> DIY Rs.1200,000 and Alternative Rs.1100,000
+        <td> 
           <div id="glamorous-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/DIY.jpeg" alt="DIY">
+                <img src="./images/cinamon/in the hills.jpg" alt="DIY">
               </div>
               <div class="carousel-item">
-                <img src="./images/Alternative.jpg" alt="Alternative">
+                <img src="./images/cinamon/hill4.jpg" alt="Alternative">
               </div>
             </div>
           </div>
         </td>
       </tr>
       <tr>
-        <td> Glamourous Rs.1800,000 and Preppy Rs.1500,000
+        <td> 
           <div id="nautical-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Glamourous.jpg" alt="Glamourous">
+                <img src="./images/cinamon/garden3.jpg" alt="Glamourous">
               </div>
               <div class="carousel-item">
-                <img src= "./images/Preppy.jpg" alt="Preppy">
+                <img src= "./images/cinamon/garden2.jpg" alt="Preppy">
               </div>
             </div>
           </div>
         </td>
-        <td> Grand Ballroom Rs.1000,000 and Rustic Rs.1400,000
+        <td>
+        <!-- <td> Grand Ballroom Rs.1000,000 and Rustic Rs.1400,000 -->
           <div id="preppy-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./images/Grand Ballroom.jpg" alt="Grand Ballroom">
+                <img src="./images/cinamon/hill3.jpg" alt="Grand Ballroom">
               </div>
               <div class="carousel-item">
-                <img src="./images/Rustic.jpg" alt="Rustic">
+                <img src="./images/cinamon/hills 1.jpg" alt="Rustic">
               </div>
             </div>
           </div>
@@ -222,14 +224,12 @@
 
 <div class="row copyright">
   <div class="footer-menu">
-
-    <a href="./index.html">HOME</a>
-    <a href="./sunsetwedding.html">MY WEDDING</a>
-    <a href="./sunsetFood&Beverage_Menu.html">FOOD COMBO</a>
-    <a href="./sunsetpromotion.html">PROMOTION & EVENTS</a>
-    <a href="./sunsetplainsreservation.html">RESERVATION</a>
-    <a href="./sunsetAboutus.html">ABOUT US</a>
- 
+  <a href="./index.php">HOME</a>
+    <a href="./cinamonweding.php">MY WEDDING</a>
+    <a href="./cinamonFood&Beverage_Menu.php">FOOD COMBO</a>
+    <a href="./cinamonpromotin.php">PROMOTION & EVENTS</a>
+    <a href="./cinamonreservation.php">RESERVATION</a>
+    <a href="./cinamonAboutus.php">ABOUT US</a>
 
   </div>
    <p>Copyright &copy; 2023</p>

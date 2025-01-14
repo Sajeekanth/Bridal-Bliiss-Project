@@ -8,13 +8,13 @@
 <body>
 <header class="heading" id="home">
 <div id="bar">
+<a href="./index.php">HOME</a>
+  <a href="./sunsetwedding.php">MY WEDDING</a>
+  <a href="./sunsetFood&Beverage_Menu.php">FOOD COMBO</a>
+  <a href="./sunsetpromotion.php">PROMOTION & EVENTS</a>
+  <a href="./sunsetplainsreservation.php">RESERVATION</a>
+  <a href="./sunsetAboutus.php">ABOUT US</a>
 
-    <a href="./index.html">HOME</a>
-    <a href="./samudrawedding.html">MY WEDDING</a>
-    <a href="./samudraFood&Beverage_Menu.html">FOOD COMBO</a>
-    <a href="./samudrapromotin.html">PROMOTION & EVENTS</a>
-    <a href="./samudrareservation.html">RESERVATION</a>
-    <a href="./samudraAboutus.html">ABOUT US</a>
 
 <input type="text" placeholder="Search..">
 <img id="search" src="./images/search.png">
@@ -34,7 +34,7 @@
 	 
 	<p class="contact"><b>Location: </b>316, Ruwan Perera Road, Sri Lanka<br><br></p>
 	 </p>
-	<b>Overlooking the iconic Galle Face Green, Taj Samudra is Colombo's premier luxury hotel, offering stunning views of the Indian Ocean and the vibrant city. Spanning 11 acres of landscaped gardens, the hotel features 300 rooms and suites, proximity to business and cultural landmarks, and exceptional butler and concierge services. Culinary experiences include Indian cuisine at Navratna, Chinese at Golden Dragon, Japanese at YUMI, and global delights at Ports of Call. Taj Samudra also boasts exceptional event venues, including the ocean-facing Samudra Ballroom and the historic Crystal Building, perfect for grand celebrations and formal meetings.</b> 
+	 
 	<h2 class="hh2"><b><i><u>Send us a Message</u></i></b></h2>
 	<b>
 	NAME:
@@ -115,12 +115,12 @@
 <div class="row copyright">
   <div class="footer-menu">
 
-    <a href="./index.html">HOME</a>
-    <a href="./samudrawedding.html">MY WEDDING</a>
-    <a href="./samudraFood&Beverage_Menu.html">FOOD COMBO</a>
-    <a href="./samudrapromotin.html">PROMOTION & EVENTS</a>
-    <a href="./samudrareservation.html">RESERVATION</a>
-    <a href="./samudraAboutus.html">ABOUT US</a>
+  <a href="./index.php">HOME</a>
+  <a href="./sunsetwedding.php">MY WEDDING</a>
+  <a href="./sunsetFood&Beverage_Menu.php">FOOD COMBO</a>
+  <a href="./sunsetpromotion.php">PROMOTION & EVENTS</a>
+  <a href="./sunsetplainsreservation.php">RESERVATION</a>
+  <a href="./sunsetAboutus.php">ABOUT US</a>
 
 
 

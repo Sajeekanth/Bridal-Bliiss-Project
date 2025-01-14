@@ -2,7 +2,7 @@
 
 <head>
     <title>Hotel Sunset Plains</title>
-    <link rel="stylesheet" href="css/sunsetplainsreservation.css">
+    <link rel="stylesheet" href="css/cinamonreservation.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script>
     function calculateTotal() {
@@ -59,12 +59,12 @@
 <body>
     <header class="heading" id="home">
         <div id="bar">
-            <a href="./index.html">HOME</a>
-            <a href="./sunsetwedding.html">MY WEDDING</a>
-            <a href="./sunsetFood&Beverage_Menu.html">FOOD COMBO</a>
-            <a href="./sunsetpromotion.html">PROMOTION & EVENTS</a>
-            <a href="./sunsetplainsreservation.html">RESERVATION</a>
-            <a href="./sunsetAboutus.html">ABOUT US</a>
+        <a href="./index.php">HOME</a>
+    <a href="./cinamonweding.php">MY WEDDING</a>
+    <a href="./cinamonFood&Beverage_Menu.php">FOOD COMBO</a>
+    <a href="./cinamonpromotin.php">PROMOTION & EVENTS</a>
+    <a href="./cinamonreservation.php">RESERVATION</a>
+    <a href="./cinamonAboutus.php">ABOUT US</a>
 
   <input type="text" placeholder="Search..">
   <img id="search" src="./images/search.png">
@@ -73,7 +73,7 @@
 
     <div class="div1">
 
-        <form method="post" action="php/sunsetreservation.php">
+        <form method="post" action="php/cinamonreservation.php">
             <h1 class="reg"><b><u><i>Register</i></u></b></h1>
 
             <p><b><i>"Thank you for selecting Cinnamon Colombo as the venue for your special event. We are delighted to have the opportunity to make your celebration extraordinary and filled with unforgettable moments.</i></b></p>
@@ -195,21 +195,19 @@ Select the cocktail menu:
 
         <div class="row copyright">
             <div class="footer-menu">
-                <a href="./index.html">HOME</a>
-                <a href="./sunsetwedding.html">MY WEDDING</a>
-                <a href="./sunsetFood&Beverage_Menu.html">FOOD COMBO</a>
-                <a href="./sunsetpromotion.html">PROMOTION & EVENTS</a>
-                <a href="./sunsetplainsreservation.html">RESERVATION</a>
-                <a href="./sunsetAboutus.html">ABOUT US</a>
-
+            <a href="./index.php">HOME</a>
+    <a href="./cinamonweding.php">MY WEDDING</a>
+    <a href="./cinamonFood&Beverage_Menu.php">FOOD COMBO</a>
+    <a href="./cinamonpromotin.php">PROMOTION & EVENTS</a>
+    <a href="./cinamonreservation.php">RESERVATION</a>
+    <a href="./cinamonAboutus.php">ABOUT US</a>
             </div>
-            <p>Copyright &copy; 2025</p>
+            <p>Copyright &copy; 2023</p>
         </div>
 
     </footer>
 </body>
 
 </html>
-
 
 </html>

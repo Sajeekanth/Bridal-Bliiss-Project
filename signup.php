@@ -26,7 +26,7 @@
   <button type="submit" class="btn btn-primary btn-ghost">SIGIN</button>
 </form>
 <!-- partial -->
-<a href="Home.html">
+<a href="Home.php">
 
 </body>
 </html>
