@@ -12,7 +12,7 @@
 <a href="./index.php">HOME</a>
   <a href="./samudrawedding.php">MY WEDDING</a>
   <a href="./samudraFood&Beverage_Menu.php">FOOD COMBO</a>
-  <a href="./samudrapromotin.php">PROMOTION & EVENTS</a>
+  <a href="./samudrapromotion.php">PROMOTION & EVENTS</a>
   <a href="./samudrareservation.php">RESERVATION</a>
   <a href="./samudraAboutus.php">ABOUT US</a>
   <input type="text" placeholder="Search..">
