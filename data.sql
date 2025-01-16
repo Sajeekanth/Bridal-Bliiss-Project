@@ -90,3 +90,7 @@ insert into user values('mathi','$2y$10$TgGRQ8gYUVcxk.1/YEimcOqoMdKMsDdtXUx3MzJQ
 ('shathuja','$2y$10$goEkxI70cPKJ.4gY1FqdcuL8mVNbg3R9hc/aD/PYG6i.HX0GREbPS','12we@gmail.com'),
 ('thuva','$2y$10$ANWdgqSayAWTb6N5ge6tweNXlk88ewBeKTWtoaPDe3bIMEFoXKtEy','mathi@gmail.com'),
 ('thuva05','$2y$10$/JjVqZRL1VzFKl3jgN9cOufd2VykNkLjNvdi.YxkuAr4P9QuosHui','rayuthuva05@gmail.com');
+
+insert into hall values('sunsetplains','Hall01','+94 77 210 1187','City',500000,'Spacious hall suitable for weddings and corporate events'),
+('cinamon','Hall02','0987654321','City Beach Gardens',400000,'Elegant hall with modern facilities, perfect for receptions'),
+('Taj samudra','Hall03','1122334455','City',450000,'Well-equipped hall for small to medium-sized gatherings'); 
