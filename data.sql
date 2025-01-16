@@ -84,3 +84,9 @@ CREATE TABLE user (
     password VARCHAR(255) NULL,
     email VARCHAR(50) NULL
 );
+
+insert into user values('mathi','$2y$10$TgGRQ8gYUVcxk.1/YEimcOqoMdKMsDdtXUx3MzJQKQlbIWoqf8nn6','mathi@gmail.com'),
+('sajee','$2y$10$QMGsszWp3WhHfBXo7UfDouS/B9KdiLld.5Nyx.riKZav3eSN3ymES','sajee01@gmail.com'),
+('shathuja','$2y$10$goEkxI70cPKJ.4gY1FqdcuL8mVNbg3R9hc/aD/PYG6i.HX0GREbPS','12we@gmail.com'),
+('thuva','$2y$10$ANWdgqSayAWTb6N5ge6tweNXlk88ewBeKTWtoaPDe3bIMEFoXKtEy','mathi@gmail.com'),
+('thuva05','$2y$10$/JjVqZRL1VzFKl3jgN9cOufd2VykNkLjNvdi.YxkuAr4P9QuosHui','rayuthuva05@gmail.com');
